@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.805">
+           time="5.186">
     <properties></properties>
 
 
 
             <testcase
                 name="signInWithWrongCredentialsTest"
-                time="2.955"
+                time="3.196"
                 classname="org.example.pomexample2.testcases.AppleTestCases">
             </testcase>
             <testcase
                 name="clickOnBagTest"
-                time="1.850"
+                time="1.990"
                 classname="org.example.pomexample2.testcases.AppleTestCases">
             </testcase>
 </testsuite>
