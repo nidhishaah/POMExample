@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.155">
+    <properties></properties>
+
+
+
+            <testcase
+                name="signInWithWrongCredentialsTest"
+                time="3.052"
+                classname="org.example.pomexample2.testcases.AppleTestCases">
+            </testcase>
+            <testcase
+                name="clickOnBagTest"
+                time="2.103"
+                classname="org.example.pomexample2.testcases.AppleTestCases">
+            </testcase>
+</testsuite>

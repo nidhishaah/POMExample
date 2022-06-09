@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Selenium_ActivateIT"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.143">
+    <properties></properties>
+
+
+
+            <testcase
+                name="navigate_to_homepage_click_on_getstarted"
+                time="1.955"
+                classname="org.example.lab6.testcases.TestNumberOne">
+            </testcase>
+            <testcase
+                name="enter_userDetails"
+                time="10.188"
+                classname="org.example.lab6.testcases.TestNumberOne">
+            </testcase>
+</testsuite>

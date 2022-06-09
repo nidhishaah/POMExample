@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.523">
+    <properties></properties>
+
+
+
+            <testcase
+                name="searchProductOnGoogleTest"
+                time="2.336"
+                classname="org.example.pomexample.testcases.GoogleSearchTest">
+            </testcase>
+            <testcase
+                name="getPicsFromGoogleTest"
+                time="3.187"
+                classname="org.example.pomexample.testcases.GoogleSearchTest">
+            </testcase>
+</testsuite>

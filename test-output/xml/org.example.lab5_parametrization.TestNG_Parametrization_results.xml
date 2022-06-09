@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Selenium_ActivateIT"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.300">
+    <properties></properties>
+
+
+
+            <testcase
+                name="TestChrome"
+                time="0.118"
+                classname="org.example.lab5_parametrization.TestNG_Parametrization">
+            </testcase>
+            <testcase
+                name="TestChrome"
+                time="0.182"
+                classname="org.example.lab5_parametrization.TestNG_Parametrization">
+            </testcase>
+</testsuite>

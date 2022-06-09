@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Selenium_ActivateIT"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.007">
+    <properties></properties>
+
+
+
+            <testcase
+                name="clickOnBagTest"
+                time="1.358"
+                classname="org.example.pomexample2.testcases.AppleTestCases">
+            </testcase>
+            <testcase
+                name="signInWithWrongCredentialsTest"
+                time="2.649"
+                classname="org.example.pomexample2.testcases.AppleTestCases">
+            </testcase>
+</testsuite>

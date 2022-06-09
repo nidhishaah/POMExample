@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Selenium_ActivateIT"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.007">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyTitle"
+                time="0.007"
+                classname="org.example.lab4_registrationform.registrationtesting.TC1_validatePagetitle">
+            </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.001">
+    <properties></properties>
+
+
+
+            <testcase
+                name="owner_name"
+                time="0.001"
+                classname="org.example.lab3_1_regex.employeeinfoTest">
+            </testcase>
+</testsuite>

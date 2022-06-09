@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Demo Form for Selenium</title>
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+	crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-light" data-new-gr-c-s-check-loaded="14.1056.0"
+	data-gr-ext-installed="">
+
+	<div class="container">
+		<div class="py-5 text-center">
+			
+			<h4>Checkout form</h4>
+			<p class="lead" id="info">Below is an shopping card form. You can
+				fill your information</p>
+
+			<p id="p1">
+				<button id="btn1">Sign In</button>
+				<button id="btn2">Sign Up</button>
+				This is a sample paragraph
+			</p>
+
+		</div>
+
+		<div class="row">
+         <form class="needs-validation" novalidate="" name="myform" action="https://www.google.com" method="get" >
+			<div class="col-md-8 order-md-1">
+				<h4 class="mb-3">Billing address</h4>
+				
+					<div class="row">
+						<div class="col-md-3 mb-3">
+							<label for="firstName">First name</label> <input type="text"
+								class="form-control" id="firstName" name="fname" value=""
+								required>
+							<div class="invalid-feedback">Valid first name is required.
+							</div>
+						</div>
+						<div class="col-md-3 mb-3">
+							<label for="lastName">Last name</label> <input type="text"
+								class="form-control" id="lastName" name="lname" value=""
+								required="">
+							<div class="invalid-feedback">Valid last name is required.
+							</div>
+						</div>
+					</div>
+				    <div class="row">
+					<div class="col-md-3 mb-3">
+						<label for="username">Username</label>
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<span class="input-group-text">@</span>
+							</div>
+							<input type="text" class="form-control" id="username"
+								placeholder="Username" required="">
+							<div class="invalid-feedback" style="width: 100%;">Your username is required.</div>
+						</div>
+					</div>
+
+					<div class=" col-md-3 mb-3">
+						<label for="email">Email <span class="text-muted">(Optional)</span></label>
+						<input type="email" class="form-control" id="email"
+							placeholder="you@example.com">
+						<div class="invalid-feedback">Please enter a valid email
+							address for shipping updates.</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="mb-3 col-md-3" >
+						<label for="address">Address</label> <input type="text"
+							class="form-control" id="address" placeholder="1234 Main St"
+							required="">
+						<div class="invalid-feedback">Please enter your shipping
+							address.</div>
+					</div>
+
+					<div class="mb-3 col-md-3">
+						<label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+						<input type="text" class="form-control" id="address2"
+							placeholder="Apartment or suite">
+					</div>
+			</div>
+					<div class="row">
+						<div class="col-md-5 mb-3">
+						
+						
+							<label for="country">Country</label> <select
+								class="custom-select d-block w-100" id="country">
+								<option value="">Choose...</option>
+								<option>United States</option>
+							</select>
+							<div class="invalid-feedback">Please select a valid
+								country.</div>
+						</div>
+						<div class="col-md-4 mb-3">
+							<label for="state">State</label> 
+							<select	class="custom-select d-block w-100" id="state" >
+								<option value="">Choose...</option>
+								<option>California</option>
+							</select>
+							<div class="invalid-feedback">Please provide a valid state.
+							</div>
+						</div>
+						<div class="col-md-3 mb-3">
+							<label for="zip">Zip</label> <input type="text"
+								class="form-control" id="zip" placeholder="" >
+							<div class="invalid-feedback">Zip code required.</div>
+						</div>
+					</div>
+					<hr class="mb-4">
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input"
+							id="same-address" value="yes"> <label
+							class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+					</div>
+					<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="save-info"	value="save"> <label class="custom-control-label"
+							for="save-info">Save this information for next time</label>
+					</div>
+					<hr class="mb-4">
+
+					<h4 class="mb-3">Payment Method</h4>
+
+					<div class="d-block my-3">
+						<div class="custom-control custom-radio">
+							<input id="credit" name="paymentMethod" value="Creditcard"
+								type="radio" class="custom-control-input"> 
+								<label class="custom-control-label" for="credit">Credit card</label>
+						</div>
+						<div class="custom-control custom-radio">
+							<input id="debit" name="paymentMethod" value="Debitcard"
+								type="radio" class="custom-control-input"> <label
+								class="custom-control-label" for="debit">Debit card</label>
+						</div>
+						<div class="custom-control custom-radio">
+							<input id="paypal" name="paymentMethod" value="Paypal"
+								type="radio" class="custom-control-input"> <label
+								class="custom-control-label" for="paypal">Paypal</label>
+						</div>
+							<div class="custom-control custom-radio">
+							<input id="paypal" name="paymentMethod" value="Paypal"
+								type="radio" class="custom-control-input"> <label
+								class="custom-control-label" for="Crypto"> Crypto Currency</label>
+						</div>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+<h5 class="mb-3">Select Crypto Currency</h5>
+						<input type="radio" id="yesRadio" name="BitCoin" value="BitCoin"	class="custom-control-input"> 
+							<label	class="custom-control-label" for="yesRadio">BitCoin</label>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="impressiveRadio" name="ETH" value="ETH"	class="custom-control-input"> 
+							<label class="custom-control-label" for="impressiveRadio">ETH</label>
+					</div>
+					<div class="custom-control custom-radio custom-control-inline">
+						<input type="radio" id="noRadio" name="DogCoin" value="DogCoin"	 class="custom-control-input ">
+						<label	class="custom-control-label " for="noRadio">DogCoin</label>
+					</div>
+			   </div>
+		
+
+		<hr class="mb-4">
+		<input class="btn btn-primary btn-lg btn-block" type=submit value="Continue to checkout" />
+		<button id="demo" class="btn btn-primary btn-lg btn-block" disabled="disabled" type="button">Save</button>
+	
+
+	</form>
+	</div>
+
+	<footer class="my-5 pt-5 text-muted text-center text-small"> </footer>
+	</div>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	
+	<script>
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+						(
+								function() {
+									'use strict';
+
+									window
+											.addEventListener(
+													'load',
+													function() {
+														// Fetch all the forms we want to apply custom Bootstrap validation styles to
+														var forms = document
+																.getElementsByClassName('needs-validation');
+
+														// Loop over them and prevent submission
+														var validation = Array.prototype.filter
+																.call(
+																		forms,
+																		function(
+																				form) {
+																			form
+																					.addEventListener(
+																							'submit',
+																							function(
+																									event) {
+																								if (form
+																										.checkValidity() === false) {
+																									event
+																											.preventDefault();
+																									event
+																											.stopPropagation();
+																								}
+																								form.classList
+																										.add('was-validated');
+																							},
+																							false);
+																		});
+													}, false);
+								})();
+	</script>
+
+
+
+</body>
+</html>

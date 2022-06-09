@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.002">
+    <properties></properties>
+
+
+
+            <testcase
+                name="b_test"
+                time="0.000"
+                classname="org.example.TestNG.FirstTest">
+            </testcase>
+            <testcase
+                name="a_test"
+                time="0.001"
+                classname="org.example.TestNG.FirstTest">
+            </testcase>
+            <testcase
+                name="c_test"
+                time="0.001"
+                classname="org.example.TestNG.FirstTest">
+            </testcase>
+</testsuite>

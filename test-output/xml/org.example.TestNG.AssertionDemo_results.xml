@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test suite"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.016">
+    <properties></properties>
+
+
+
+            <testcase
+                name="test_UsingHardAssertion"
+                time="0.001"
+                classname="org.example.TestNG.AssertionDemo">
+            </testcase>
+            <testcase
+                name="compareNumeric"
+                time="0.015"
+                classname="org.example.TestNG.AssertionDemo">
+            </testcase>
+</testsuite>

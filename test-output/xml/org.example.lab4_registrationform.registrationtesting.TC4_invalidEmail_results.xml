@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Selenium_ActivateIT"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.946">
+    <properties></properties>
+
+
+
+            <testcase
+                name="invalidEmailTest"
+                time="10.946"
+                classname="org.example.lab4_registrationform.registrationtesting.TC4_invalidEmail">
+            </testcase>
+</testsuite>

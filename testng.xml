@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite">
+    <test name="test suite" enabled="true">
+        <groups>
+            <run>
+<!--                <include name = "group1"></include>-->
+<!--                <include name = "group2"></include>-->
+<!--                <include name="group3"></include>-->
+            </run>
+        </groups>
+        <classes>
+<!--            <class name="com.perscholas.RegistrationTest" />-->
+<!--            <class name="com.perscholas.SignInTest" />-->
+
+            
+<!--            <class name="org.example.TestNG.AssertionDemo"/>-->
+<!--            <class name="org.example.TestNG.SoftAssertion"/>-->
+<!--            <class name="org.example.TestNG.FirstTest"></class>-->
+<!--&lt;!&ndash;            <class name="org.example.selenium.practise.GoogleSearchTest"/>&ndash;&gt;-->
+<!--            <class name="org.example.pomexample.testcases.GoogleSearchTest"></class>-->
+            <class name="org.example.pomexample2.testcases.AppleTestCases"></class>
+<!--            <class name="org.example.lab3_controllerTests.testcases.TestEmployeeDetails"/>-->
+<!--            <class name="org.example.lab3_controllerTests.testcases.TestEmployeeIncomeTax"></class>-->
+
+<!--            <class name="org.example.lab3_1_regex.loan">-->
+<!--                <methods>-->
+<!--                    <include name="Mobile.*"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.lab3_1_regex.employeeinfoTest">-->
+<!--                <methods>-->
+<!--                    <exclude name="employee.*"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+
+<!--            <class name="org.example.lab4_registrationform.registrationtesting.TC1_validatePagetitle"/>-->
+<!--            <class name="org.example.lab4_registrationform.registrationtesting.TC2_FillFOrmData"/>-->
+<!--            <class name="org.example.lab4_registrationform.registrationtesting.TC3_MultipleDropDown"/>-->
+<!--            <class name="org.example.lab4_registrationform.registrationtesting.TC4_invalidEmail"/>-->
+
+
+        </classes>
+    </test>
+</suite>
